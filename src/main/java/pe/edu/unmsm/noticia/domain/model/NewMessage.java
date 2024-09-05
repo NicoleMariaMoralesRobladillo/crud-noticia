@@ -7,7 +7,7 @@ import lombok.*;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class NoticeMessage {
+public class NewMessage {
     private Long id;
     private String content;
 }

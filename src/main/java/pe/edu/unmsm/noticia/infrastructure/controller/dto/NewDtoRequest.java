@@ -12,7 +12,7 @@ import javax.validation.constraints.NotBlank;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class NoticeMessageDtoRequest {
-    @NotBlank(message = MessageKeyUtil.NOTICE_MESSAGE_NOT_BLANK)
+public class NewDtoRequest {
+    @NotBlank(message = MessageKeyUtil.NEW_MESSAGE_NOT_BLANK)
     private String content;
 }
